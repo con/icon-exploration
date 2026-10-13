@@ -1,0 +1,26 @@
+[INFO] Locking pre-commit directory
+[INFO] Locking pre-commit directory
+[INFO] Initializing environment for https://github.com/psf/black.
+[INFO] Locking pre-commit directory
+[INFO] Locking pre-commit directory
+[INFO] Locking pre-commit directory
+[INFO] Locking pre-commit directory
+[INFO] Installing environment for https://github.com/pre-commit/pre-commit-hooks.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+[INFO] Installing environment for https://github.com/psf/black.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+[INFO] Installing environment for https://github.com/PyCQA/isort.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+[INFO] Installing environment for https://github.com/PyCQA/flake8.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+trim trailing whitespace.................................................Passed
+fix end of files.........................................................Passed
+check yaml...........................................(no files to check)Skipped
+check for added large files..............................................Passed
+black................................................(no files to check)Skipped
+isort................................................(no files to check)Skipped
+flake8...............................................(no files to check)Skipped

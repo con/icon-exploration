@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/tmp/con-project-icon-proposals/solidation/revised/refine.py", line 3, in <module>
+    from PIL import Image, ImageDraw
+ModuleNotFoundError: No module named 'PIL'

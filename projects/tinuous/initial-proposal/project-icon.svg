@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">tinuous icon proposal</title><desc id="desc">Build output is collected into a downloadable archive.</desc>
+<rect width="256" height="256" rx="44" fill="#17324D"/>
+<path d="M62 61h132v134H62z" fill="none" stroke="#F4F0E6" stroke-width="10" stroke-linejoin="round"/>
+<path d="M84 91h50m-50 21h38" stroke="#36A89A" stroke-width="8" stroke-linecap="round"/>
+<path d="M145 88v58m-21-20 21 21 21-21" fill="none" stroke="#E26D5A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M84 165h28m16 0h14m14 0h14" stroke="#F4F0E6" stroke-width="7" stroke-linecap="round"/>
+<circle cx="177" cy="76" r="7" fill="#E9B44C"/>
+</svg>

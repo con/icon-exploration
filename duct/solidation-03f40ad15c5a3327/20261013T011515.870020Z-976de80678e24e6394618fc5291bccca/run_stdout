@@ -1,0 +1,19 @@
+check for added large files..............................................Passed
+check json...........................................(no files to check)Skipped
+check toml...........................................(no files to check)Skipped
+check yaml...........................................(no files to check)Skipped
+fix end of files.........................................................Failed
+- hook id: end-of-file-fixer
+- exit code: 1
+- files were modified by this hook
+
+Fixing assets/project-icon-monochrome.svg
+Fixing assets/project-icon.svg
+Fixing assets/project-icon-reversed.svg
+Fixing assets/logo-concepts/solidation-concept-b-summary.svg
+Fixing assets/logo-concepts/solidation-concept-c-collective.svg
+
+trim trailing whitespace.................................................Passed
+black................................................(no files to check)Skipped
+isort................................................(no files to check)Skipped
+flake8...............................................(no files to check)Skipped

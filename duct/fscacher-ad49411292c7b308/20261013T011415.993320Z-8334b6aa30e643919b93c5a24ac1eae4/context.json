@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "session_id": "01a13238-ab2d-7c63-b199-e70cc61df1af",
+  "task_id": null,
+  "project_id": "fscacher-ad49411292c7b308",
+  "project_root": "/private/tmp/con-project-icon-proposals/checkouts/fscacher",
+  "working_directory": "/private/tmp/con-project-icon-proposals/checkouts/fscacher",
+  "started_at": "2026-10-13T01:14:15.993320+00:00",
+  "git_commit": "5eaf27c4c9888d93d7d5f7fe83a2ef71bbe0301c",
+  "git_dirty": true,
+  "duct_executable": "/Users/johnlee/.local/bin/duct"
+}

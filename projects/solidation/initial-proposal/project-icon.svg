@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">solidation icon proposal</title><desc id="desc">Issue and pull request activity converges into a concise report.</desc>
+<rect width="256" height="256" rx="44" fill="#17324D"/>
+<path d="M72 62h78l34 34v100a12 12 0 0 1-12 12H72a12 12 0 0 1-12-12V74a12 12 0 0 1 12-12Z" fill="none" stroke="#F4F0E6" stroke-width="10" stroke-linejoin="round"/>
+<path d="M150 63v34h33" fill="none" stroke="#36A89A" stroke-width="9" stroke-linejoin="round"/>
+<path d="M91 119h60m-60 21h60m-60 21h38" stroke="#F4F0E6" stroke-width="8" stroke-linecap="round"/>
+<circle cx="64" cy="89" r="13" fill="#E26D5A"/><circle cx="192" cy="130" r="13" fill="#E9B44C"/>
+<path d="M77 89h16m86 41h-16" stroke="#36A89A" stroke-width="7" stroke-linecap="round"/>
+</svg>

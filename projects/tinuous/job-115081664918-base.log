@@ -1,0 +1,568 @@
+﻿2026-10-13T01:17:20.3177682Z Current runner version: '2.337.0'
+2026-10-13T01:17:20.3213265Z ##[group]Runner Image Provisioner
+2026-10-13T01:17:20.3214920Z Hosted Compute Agent
+2026-10-13T01:17:20.3215987Z Version: 20261002.596
+2026-10-13T01:17:20.3217059Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+2026-10-13T01:17:20.3218307Z Build Date: 2026-10-02T22:28:27Z
+2026-10-13T01:17:20.3219506Z Worker ID: {1f945c83-7156-410c-98d2-7390e5d2641a}
+2026-10-13T01:17:20.3220642Z Region: eastus
+2026-10-13T01:17:20.3221670Z Cloud: Azure
+2026-10-13T01:17:20.3222634Z ##[endgroup]
+2026-10-13T01:17:20.3225257Z ##[group]Operating System
+2026-10-13T01:17:20.3226447Z Ubuntu
+2026-10-13T01:17:20.3227308Z 24.04.5
+2026-10-13T01:17:20.3228194Z LTS
+2026-10-13T01:17:20.3229131Z ##[endgroup]
+2026-10-13T01:17:20.3230013Z ##[group]Runner Image
+2026-10-13T01:17:20.3231060Z Image: ubuntu-24.04
+2026-10-13T01:17:20.3232024Z Version: 20261004.327.1
+2026-10-13T01:17:20.3234219Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-13T01:17:20.3237116Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+2026-10-13T01:17:20.3238901Z ##[endgroup]
+2026-10-13T01:17:20.3244034Z ##[group]GITHUB_TOKEN Permissions
+2026-10-13T01:17:20.3247590Z Actions: read
+2026-10-13T01:17:20.3248679Z ArtifactMetadata: read
+2026-10-13T01:17:20.3249745Z Attestations: read
+2026-10-13T01:17:20.3250647Z Checks: read
+2026-10-13T01:17:20.3251615Z CodeQuality: read
+2026-10-13T01:17:20.3252638Z Contents: read
+2026-10-13T01:17:20.3253531Z Deployments: read
+2026-10-13T01:17:20.3254753Z Discussions: read
+2026-10-13T01:17:20.3255711Z Drives: read
+2026-10-13T01:17:20.3256710Z Issues: read
+2026-10-13T01:17:20.3257658Z Metadata: read
+2026-10-13T01:17:20.3258747Z Models: read
+2026-10-13T01:17:20.3259697Z Packages: read
+2026-10-13T01:17:20.3260570Z Pages: read
+2026-10-13T01:17:20.3261544Z PullRequests: read
+2026-10-13T01:17:20.3262583Z RepositoryProjects: read
+2026-10-13T01:17:20.3263670Z SecurityEvents: read
+2026-10-13T01:17:20.3264966Z Statuses: read
+2026-10-13T01:17:20.3265926Z VulnerabilityAlerts: read
+2026-10-13T01:17:20.3267009Z ##[endgroup]
+2026-10-13T01:17:20.3270046Z Secret source: None
+2026-10-13T01:17:20.3271560Z Cache mode: write
+2026-10-13T01:17:20.3272709Z Prepare workflow directory
+2026-10-13T01:17:20.3752231Z Prepare all required actions
+2026-10-13T01:17:20.3826759Z Getting action download info
+2026-10-13T01:17:20.6056778Z Download action repository 'actions/checkout@v7' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+2026-10-13T01:17:20.7093449Z Download action repository 'actions/setup-python@v7' (SHA:5fda3b95a4ea91299a34e894583c3862153e4b97)
+2026-10-13T01:17:20.7988002Z Download action repository 'codecov/codecov-action@v7' (SHA:303a32d7a59b442fa8d48b6a1cc6825c09c847a5)
+2026-10-13T01:17:21.0108942Z Getting action download info
+2026-10-13T01:17:21.0801218Z Download action repository 'actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd' (SHA:ed597411d8f924073f98dfc5c65a23a2325f34cd)
+2026-10-13T01:17:21.2398892Z Complete job name: test (base)
+2026-10-13T01:17:21.3324821Z ##[group]Run actions/checkout@v7
+2026-10-13T01:17:21.3325824Z with:
+2026-10-13T01:17:21.3326290Z   fetch-depth: 0
+2026-10-13T01:17:21.3326790Z   repository: con/tinuous
+2026-10-13T01:17:21.3331073Z   token: ***
+2026-10-13T01:17:21.3331544Z   ssh-strict: true
+2026-10-13T01:17:21.3332012Z   ssh-user: git
+2026-10-13T01:17:21.3332487Z   persist-credentials: true
+2026-10-13T01:17:21.3333015Z   clean: true
+2026-10-13T01:17:21.3333498Z   sparse-checkout-cone-mode: true
+2026-10-13T01:17:21.3334074Z   fetch-tags: false
+2026-10-13T01:17:21.3334752Z   show-progress: true
+2026-10-13T01:17:21.3335250Z   lfs: false
+2026-10-13T01:17:21.3335719Z   submodules: false
+2026-10-13T01:17:21.3336228Z   set-safe-directory: true
+2026-10-13T01:17:21.3336790Z   allow-unsafe-pr-checkout: false
+2026-10-13T01:17:21.3337622Z ##[endgroup]
+2026-10-13T01:17:21.4355521Z Syncing repository: con/tinuous
+2026-10-13T01:17:21.4358457Z ##[group]Getting Git version info
+2026-10-13T01:17:21.4360173Z Working directory is '/home/runner/work/tinuous/tinuous'
+2026-10-13T01:17:21.4361962Z [command]/usr/bin/git version
+2026-10-13T01:17:21.4535628Z git version 2.55.0
+2026-10-13T01:17:21.4590820Z ##[endgroup]
+2026-10-13T01:17:21.4601949Z Temporarily overriding HOME='/home/runner/work/_temp/a4b18435-e46b-44f1-9a84-59e61d7d5878' before making global git config changes
+2026-10-13T01:17:21.4604771Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-13T01:17:21.4608184Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tinuous/tinuous
+2026-10-13T01:17:21.4661824Z Deleting the contents of '/home/runner/work/tinuous/tinuous'
+2026-10-13T01:17:21.4665596Z ##[group]Determining repository object format
+2026-10-13T01:17:21.4667406Z ##[endgroup]
+2026-10-13T01:17:21.4668931Z ##[group]Initializing the repository
+2026-10-13T01:17:21.4672071Z [command]/usr/bin/git init /home/runner/work/tinuous/tinuous
+2026-10-13T01:17:21.4846917Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-13T01:17:21.4848942Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-13T01:17:21.4850676Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-13T01:17:21.4852070Z hint: call:
+2026-10-13T01:17:21.4852764Z hint:
+2026-10-13T01:17:21.4853645Z hint: 	git config --global init.defaultBranch <name>
+2026-10-13T01:17:21.4854949Z hint:
+2026-10-13T01:17:21.4855987Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-13T01:17:21.4857673Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-13T01:17:21.4859013Z hint:
+2026-10-13T01:17:21.4859749Z hint: 	git branch -m <name>
+2026-10-13T01:17:21.4860573Z hint:
+2026-10-13T01:17:21.4861674Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-13T01:17:21.4863743Z Initialized empty Git repository in /home/runner/work/tinuous/tinuous/.git/
+2026-10-13T01:17:21.4867418Z [command]/usr/bin/git remote add origin https://github.com/con/tinuous
+2026-10-13T01:17:21.4922737Z ##[endgroup]
+2026-10-13T01:17:21.4923665Z ##[group]Disabling automatic garbage collection
+2026-10-13T01:17:21.4924786Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-13T01:17:21.4968934Z ##[endgroup]
+2026-10-13T01:17:21.4969851Z ##[group]Setting up auth
+2026-10-13T01:17:21.4970492Z Removing SSH command configuration
+2026-10-13T01:17:21.4971563Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-13T01:17:21.5010297Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-13T01:17:21.5394975Z Removing HTTP extra header
+2026-10-13T01:17:21.5400302Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-13T01:17:21.5436291Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-13T01:17:21.5656449Z Removing includeIf entries pointing to credentials config files
+2026-10-13T01:17:21.5661446Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-13T01:17:21.5695440Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-13T01:17:21.5923489Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-12f34c1f-0bbf-447b-9d88-6e90897bed0d.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-13T01:17:21.5963690Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/tinuous/tinuous/.git.path /home/runner/work/_temp/git-credentials-12f34c1f-0bbf-447b-9d88-6e90897bed0d.config
+2026-10-13T01:17:21.5997145Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/tinuous/tinuous/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-12f34c1f-0bbf-447b-9d88-6e90897bed0d.config
+2026-10-13T01:17:21.6034859Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-12f34c1f-0bbf-447b-9d88-6e90897bed0d.config
+2026-10-13T01:17:21.6069230Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-12f34c1f-0bbf-447b-9d88-6e90897bed0d.config
+2026-10-13T01:17:21.6100951Z ##[endgroup]
+2026-10-13T01:17:21.6102378Z ##[group]Fetching the repository
+2026-10-13T01:17:21.6107529Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/* +f6c75da4a1b8a985ae2f232710fd212aed9a426c:refs/remotes/pull/234/merge
+2026-10-13T01:17:21.9465197Z From https://github.com/con/tinuous
+2026-10-13T01:17:21.9467926Z  * [new branch]      bf-circleci                              -> origin/bf-circleci
+2026-10-13T01:17:21.9471134Z  * [new branch]      claude/aged-now-pr-review-88tepc         -> origin/claude/aged-now-pr-review-88tepc
+2026-10-13T01:17:21.9475020Z  * [new branch]      copilot/fix-workflow-overlap-issue       -> origin/copilot/fix-workflow-overlap-issue
+2026-10-13T01:17:21.9478917Z  * [new branch]      copilot/make-travis-testing-optional     -> origin/copilot/make-travis-testing-optional
+2026-10-13T01:17:21.9483065Z  * [new branch]      copilot/support-github-packages          -> origin/copilot/support-github-packages
+2026-10-13T01:17:21.9486899Z  * [new branch]      enh-fail-debug                           -> origin/enh-fail-debug
+2026-10-13T01:17:21.9490146Z  * [new branch]      gh-55                                    -> origin/gh-55
+2026-10-13T01:17:21.9491744Z  * [new branch]      master                                   -> origin/master
+2026-10-13T01:17:21.9493439Z  * [new branch]      no-extra-search                          -> origin/no-extra-search
+2026-10-13T01:17:21.9495484Z  * [new branch]      pragmata                                 -> origin/pragmata
+2026-10-13T01:17:21.9497353Z  * [new branch]      test-appveyor                            -> origin/test-appveyor
+2026-10-13T01:17:21.9499500Z  * [new tag]         0.1.0                                    -> 0.1.0
+2026-10-13T01:17:21.9501555Z  * [new tag]         0.2.0                                    -> 0.2.0
+2026-10-13T01:17:21.9503064Z  * [new tag]         0.3.0                                    -> 0.3.0
+2026-10-13T01:17:21.9504832Z  * [new tag]         0.4.0                                    -> 0.4.0
+2026-10-13T01:17:21.9506370Z  * [new tag]         0.5.0                                    -> 0.5.0
+2026-10-13T01:17:21.9507878Z  * [new tag]         0.5.1                                    -> 0.5.1
+2026-10-13T01:17:21.9509414Z  * [new tag]         0.5.2                                    -> 0.5.2
+2026-10-13T01:17:21.9511370Z  * [new tag]         0.5.3                                    -> 0.5.3
+2026-10-13T01:17:21.9513052Z  * [new tag]         0.5.4                                    -> 0.5.4
+2026-10-13T01:17:21.9515092Z  * [new tag]         0.6.0                                    -> 0.6.0
+2026-10-13T01:17:21.9517092Z  * [new tag]         0.6.1                                    -> 0.6.1
+2026-10-13T01:17:21.9519052Z  * [new tag]         0.7.0                                    -> 0.7.0
+2026-10-13T01:17:21.9521010Z  * [new tag]         0.7.1                                    -> 0.7.1
+2026-10-13T01:17:21.9522981Z  * [new tag]         0.7.2                                    -> 0.7.2
+2026-10-13T01:17:21.9525213Z  * [new tag]         0.7.3                                    -> 0.7.3
+2026-10-13T01:17:21.9527206Z  * [new tag]         0.7.4                                    -> 0.7.4
+2026-10-13T01:17:21.9529194Z  * [new tag]         0.7.5                                    -> 0.7.5
+2026-10-13T01:17:21.9531513Z  * [new ref]         f6c75da4a1b8a985ae2f232710fd212aed9a426c -> pull/234/merge
+2026-10-13T01:17:21.9536567Z ##[endgroup]
+2026-10-13T01:17:21.9538658Z ##[group]Determining the checkout info
+2026-10-13T01:17:21.9541169Z ##[endgroup]
+2026-10-13T01:17:21.9542480Z [command]/usr/bin/git sparse-checkout disable
+2026-10-13T01:17:21.9559841Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-13T01:17:21.9598062Z ##[group]Checking out the ref
+2026-10-13T01:17:21.9601455Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/234/merge
+2026-10-13T01:17:21.9677876Z Note: switching to 'refs/remotes/pull/234/merge'.
+2026-10-13T01:17:21.9679050Z 
+2026-10-13T01:17:21.9680420Z You are in 'detached HEAD' state. You can look around, make experimental
+2026-10-13T01:17:21.9684056Z changes and commit them, and you can discard any commits you make in this
+2026-10-13T01:17:21.9687343Z state without impacting any branches by switching back to a branch.
+2026-10-13T01:17:21.9689110Z 
+2026-10-13T01:17:21.9690123Z If you want to create a new branch to retain commits you create, you may
+2026-10-13T01:17:21.9692439Z do so (now or later) by using -c with the switch command. Example:
+2026-10-13T01:17:21.9694062Z 
+2026-10-13T01:17:21.9695056Z   git switch -c <new-branch-name>
+2026-10-13T01:17:21.9696072Z 
+2026-10-13T01:17:21.9696558Z Or undo this operation with:
+2026-10-13T01:17:21.9697327Z 
+2026-10-13T01:17:21.9697758Z   git switch -
+2026-10-13T01:17:21.9698342Z 
+2026-10-13T01:17:21.9699308Z Turn off this advice by setting config variable advice.detachedHead to false
+2026-10-13T01:17:21.9700769Z 
+2026-10-13T01:17:21.9702575Z HEAD is now at f6c75da Merge 95754c5c391245feb961cd3abe521630a1420d39 into 08d7a144ddabf2055d84fb0b9168f76e26a673cc
+2026-10-13T01:17:21.9707483Z ##[endgroup]
+2026-10-13T01:17:21.9737873Z [command]/usr/bin/git log -1 --format=%H
+2026-10-13T01:17:21.9766740Z f6c75da4a1b8a985ae2f232710fd212aed9a426c
+2026-10-13T01:17:22.0139856Z ##[group]Run actions/setup-python@v7
+2026-10-13T01:17:22.0141081Z with:
+2026-10-13T01:17:22.0141963Z   python-version: 3.10
+2026-10-13T01:17:22.0142973Z   check-latest: false
+2026-10-13T01:17:22.0152951Z   token: ***
+2026-10-13T01:17:22.0153896Z   update-environment: true
+2026-10-13T01:17:22.0155399Z   allow-prereleases: false
+2026-10-13T01:17:22.0156485Z   freethreaded: false
+2026-10-13T01:17:22.0157450Z ##[endgroup]
+2026-10-13T01:17:22.1333334Z ##[group]Installed versions
+2026-10-13T01:17:22.1437718Z Successfully set up CPython (3.10.22)
+2026-10-13T01:17:22.1440281Z ##[endgroup]
+2026-10-13T01:17:22.1631902Z ##[group]Run python -m pip install --upgrade pip wheel
+2026-10-13T01:17:22.1633614Z [36;1mpython -m pip install --upgrade pip wheel[0m
+2026-10-13T01:17:22.1635370Z [36;1mpython -m pip install coverage[0m
+2026-10-13T01:17:22.1636637Z [36;1mpython -m pip install .[0m
+2026-10-13T01:17:22.2111817Z shell: /usr/bin/bash -e {0}
+2026-10-13T01:17:22.2113000Z env:
+2026-10-13T01:17:22.2114131Z   pythonLocation: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:22.2116284Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.10.22/x64/lib/pkgconfig
+2026-10-13T01:17:22.2118117Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:22.2119805Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:22.2121461Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:22.2123151Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.10.22/x64/lib
+2026-10-13T01:17:22.2124716Z ##[endgroup]
+2026-10-13T01:17:24.2994349Z Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages (26.2.1)
+2026-10-13T01:17:24.4932114Z Collecting wheel
+2026-10-13T01:17:24.6167614Z   Downloading wheel-0.48.0-py3-none-any.whl.metadata (2.3 kB)
+2026-10-13T01:17:24.6564213Z Collecting packaging>=24.0 (from wheel)
+2026-10-13T01:17:24.6861367Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+2026-10-13T01:17:24.7195390Z Downloading wheel-0.48.0-py3-none-any.whl (33 kB)
+2026-10-13T01:17:24.7677744Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+2026-10-13T01:17:24.9176459Z Installing collected packages: packaging, wheel
+2026-10-13T01:17:25.0115305Z 
+2026-10-13T01:17:25.0126362Z Successfully installed packaging-26.3 wheel-0.48.0
+2026-10-13T01:17:26.0548850Z Collecting coverage
+2026-10-13T01:17:26.1421607Z   Downloading coverage-7.16.2-cp310-cp310-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (8.2 kB)
+2026-10-13T01:17:26.2030570Z Downloading coverage-7.16.2-cp310-cp310-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (252 kB)
+2026-10-13T01:17:26.2800189Z Installing collected packages: coverage
+2026-10-13T01:17:26.3855575Z Successfully installed coverage-7.16.2
+2026-10-13T01:17:26.7351823Z Processing ./.
+2026-10-13T01:17:26.7369008Z   Installing build dependencies: started
+2026-10-13T01:17:27.9059803Z   Installing build dependencies: finished with status 'done'
+2026-10-13T01:17:27.9066784Z   Getting requirements to build wheel: started
+2026-10-13T01:17:28.3364933Z   Getting requirements to build wheel: finished with status 'done'
+2026-10-13T01:17:28.3375021Z   Preparing metadata (pyproject.toml): started
+2026-10-13T01:17:28.5448025Z   Preparing metadata (pyproject.toml): finished with status 'done'
+2026-10-13T01:17:28.6557036Z Collecting click>=7.0 (from tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:28.7539330Z   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+2026-10-13T01:17:28.7946302Z Collecting click-loglevel~=0.2 (from tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:28.8231841Z   Downloading click_loglevel-0.7.0-py3-none-any.whl.metadata (6.1 kB)
+2026-10-13T01:17:28.9341388Z Collecting ghtoken~=0.1 (from tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:28.9572646Z   Downloading ghtoken-0.1.2-py3-none-any.whl.metadata (9.2 kB)
+2026-10-13T01:17:28.9868825Z Collecting in_place~=1.0 (from tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:29.0179080Z   Downloading in_place-1.0.2-py3-none-any.whl.metadata (7.9 kB)
+2026-10-13T01:17:29.2419632Z Collecting pydantic~=2.0 (from tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:29.2647488Z   Downloading pydantic-2.14.1-py3-none-any.whl.metadata (133 kB)
+2026-10-13T01:17:29.3361929Z Collecting python-dateutil~=2.7 (from tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:29.3578380Z   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+2026-10-13T01:17:29.3868431Z Collecting python-dotenv<2.0,>=0.11 (from tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:29.4084245Z   Downloading python_dotenv-1.2.4-py3-none-any.whl.metadata (29 kB)
+2026-10-13T01:17:29.4628786Z Collecting PyYAML>=5.0 (from tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:29.4848246Z   Downloading pyyaml-6.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+2026-10-13T01:17:29.5216598Z Collecting requests~=2.20 (from tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:29.5430353Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+2026-10-13T01:17:29.7095494Z Collecting ruamel-yaml<1.0,>=0.15 (from ghtoken~=0.1->tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:29.7310523Z   Downloading ruamel_yaml-0.19.1-py3-none-any.whl.metadata (16 kB)
+2026-10-13T01:17:29.7581546Z Collecting annotated-types>=0.6.0 (from pydantic~=2.0->tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:29.7796789Z   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+2026-10-13T01:17:30.6155480Z Collecting pydantic-core==2.50.1 (from pydantic~=2.0->tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:30.6374748Z   Downloading pydantic_core-2.50.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.5 kB)
+2026-10-13T01:17:30.6663486Z Collecting typing-extensions>=4.16.0 (from pydantic~=2.0->tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:30.6879351Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+2026-10-13T01:17:30.7109072Z Collecting typing-inspection>=0.4.4 (from pydantic~=2.0->tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:30.7342494Z   Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+2026-10-13T01:17:30.7595873Z Collecting six>=1.5 (from python-dateutil~=2.7->tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:30.7809384Z   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+2026-10-13T01:17:30.9328649Z Collecting charset_normalizer<4,>=2 (from requests~=2.20->tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:30.9553914Z   Downloading charset_normalizer-3.5.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+2026-10-13T01:17:30.9861632Z Collecting idna<4,>=2.5 (from requests~=2.20->tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:31.0217104Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+2026-10-13T01:17:31.0810521Z Collecting urllib3<3,>=1.26 (from requests~=2.20->tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:31.1028103Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+2026-10-13T01:17:31.1342518Z Collecting certifi>=2023.5.7 (from requests~=2.20->tinuous==0.7.5.post3+gf6c75da)
+2026-10-13T01:17:31.1572793Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+2026-10-13T01:17:31.1873699Z Downloading click_loglevel-0.7.0-py3-none-any.whl (6.9 kB)
+2026-10-13T01:17:31.2126213Z Downloading ghtoken-0.1.2-py3-none-any.whl (9.4 kB)
+2026-10-13T01:17:31.2414134Z Downloading in_place-1.0.2-py3-none-any.whl (7.8 kB)
+2026-10-13T01:17:31.2619693Z Downloading pydantic-2.14.1-py3-none-any.whl (488 kB)
+2026-10-13T01:17:31.3296986Z Downloading pydantic_core-2.50.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.2 MB)
+2026-10-13T01:17:31.4113164Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 24.9 MB/s  0:00:00
+2026-10-13T01:17:31.4328230Z Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+2026-10-13T01:17:31.4585550Z Downloading python_dotenv-1.2.4-py3-none-any.whl (23 kB)
+2026-10-13T01:17:31.4824715Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+2026-10-13T01:17:31.5057466Z Downloading charset_normalizer-3.5.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (271 kB)
+2026-10-13T01:17:31.5297961Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+2026-10-13T01:17:31.5532878Z Downloading ruamel_yaml-0.19.1-py3-none-any.whl (118 kB)
+2026-10-13T01:17:31.5769294Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+2026-10-13T01:17:31.6005354Z Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+2026-10-13T01:17:31.6241258Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+2026-10-13T01:17:31.6482299Z Downloading click-8.5.0-py3-none-any.whl (125 kB)
+2026-10-13T01:17:31.6720527Z Downloading pyyaml-6.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (770 kB)
+2026-10-13T01:17:31.6798881Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 770.3/770.3 kB 97.1 MB/s  0:00:00
+2026-10-13T01:17:31.7022849Z Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+2026-10-13T01:17:31.7255108Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+2026-10-13T01:17:31.7493551Z Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+2026-10-13T01:17:31.7926377Z Building wheels for collected packages: tinuous
+2026-10-13T01:17:31.7935422Z   Building wheel for tinuous (pyproject.toml): started
+2026-10-13T01:17:32.0361280Z   Building wheel for tinuous (pyproject.toml): finished with status 'done'
+2026-10-13T01:17:32.0369398Z   Created wheel for tinuous: filename=tinuous-0.7.5.post3+gf6c75da-py3-none-any.whl size=37849 sha256=dacb14eb92a8e5dd7e4cc974120af228a7de82dc1d5edfc599a17e5b07c81f85
+2026-10-13T01:17:32.0371573Z   Stored in directory: /tmp/pip-ephem-wheel-cache-5_vgyty7/wheels/91/ac/72/8f207af242566a8cab66ccf3ad4a1a777009048a2ede08d220
+2026-10-13T01:17:32.0394315Z Successfully built tinuous
+2026-10-13T01:17:32.0835306Z Installing collected packages: urllib3, typing-extensions, six, ruamel-yaml, PyYAML, python-dotenv, in_place, idna, click, charset_normalizer, certifi, annotated-types, typing-inspection, requests, python-dateutil, pydantic-core, ghtoken, click-loglevel, pydantic, tinuous
+2026-10-13T01:17:32.9314212Z 
+2026-10-13T01:17:32.9353256Z Successfully installed PyYAML-6.0.3 annotated-types-0.8.0 certifi-2026.7.22 charset_normalizer-3.5.2 click-8.5.0 click-loglevel-0.7.0 ghtoken-0.1.2 idna-3.20 in_place-1.0.2 pydantic-2.14.1 pydantic-core-2.50.1 python-dateutil-2.9.0.post0 python-dotenv-1.2.4 requests-2.34.2 ruamel-yaml-0.19.1 six-1.17.0 tinuous-0.7.5.post3+gf6c75da typing-extensions-4.16.0 typing-inspection-0.4.4 urllib3-2.8.0
+2026-10-13T01:17:33.0452364Z ##[group]Run actions/checkout@v7
+2026-10-13T01:17:33.0452642Z with:
+2026-10-13T01:17:33.0452857Z   repository: con/tinuous-inception
+2026-10-13T01:17:33.0453132Z   path: tinuous-inception
+2026-10-13T01:17:33.0455909Z   token: ***
+2026-10-13T01:17:33.0456123Z   ssh-strict: true
+2026-10-13T01:17:33.0456327Z   ssh-user: git
+2026-10-13T01:17:33.0456544Z   persist-credentials: true
+2026-10-13T01:17:33.0456775Z   clean: true
+2026-10-13T01:17:33.0456994Z   sparse-checkout-cone-mode: true
+2026-10-13T01:17:33.0457245Z   fetch-depth: 1
+2026-10-13T01:17:33.0457459Z   fetch-tags: false
+2026-10-13T01:17:33.0457665Z   show-progress: true
+2026-10-13T01:17:33.0457869Z   lfs: false
+2026-10-13T01:17:33.0458093Z   submodules: false
+2026-10-13T01:17:33.0458306Z   set-safe-directory: true
+2026-10-13T01:17:33.0458548Z   allow-unsafe-pr-checkout: false
+2026-10-13T01:17:33.0458787Z env:
+2026-10-13T01:17:33.0459037Z   pythonLocation: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:33.0459485Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.10.22/x64/lib/pkgconfig
+2026-10-13T01:17:33.0459905Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:33.0460271Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:33.0460638Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:33.0461014Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.10.22/x64/lib
+2026-10-13T01:17:33.0461326Z ##[endgroup]
+2026-10-13T01:17:33.1309568Z Syncing repository: con/tinuous-inception
+2026-10-13T01:17:33.1314015Z ##[group]Getting Git version info
+2026-10-13T01:17:33.1315061Z Working directory is '/home/runner/work/tinuous/tinuous/tinuous-inception'
+2026-10-13T01:17:33.1364094Z [command]/usr/bin/git version
+2026-10-13T01:17:33.1411937Z git version 2.55.0
+2026-10-13T01:17:33.1436271Z ##[endgroup]
+2026-10-13T01:17:33.1447095Z Temporarily overriding HOME='/home/runner/work/_temp/c11ac97a-8ac4-4ea5-b6e6-e185f1f8654f' before making global git config changes
+2026-10-13T01:17:33.1448146Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-13T01:17:33.1453279Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tinuous/tinuous/tinuous-inception
+2026-10-13T01:17:33.1490270Z ##[group]Determining repository object format
+2026-10-13T01:17:33.4025944Z ##[endgroup]
+2026-10-13T01:17:33.4026614Z ##[group]Initializing the repository
+2026-10-13T01:17:33.4035006Z [command]/usr/bin/git init /home/runner/work/tinuous/tinuous/tinuous-inception
+2026-10-13T01:17:33.4090795Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-13T01:17:33.4091953Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-13T01:17:33.4093236Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-13T01:17:33.4094169Z hint: call:
+2026-10-13T01:17:33.4094916Z hint:
+2026-10-13T01:17:33.4095540Z hint: 	git config --global init.defaultBranch <name>
+2026-10-13T01:17:33.4096301Z hint:
+2026-10-13T01:17:33.4097001Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-13T01:17:33.4098061Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-13T01:17:33.4098952Z hint:
+2026-10-13T01:17:33.4099492Z hint: 	git branch -m <name>
+2026-10-13T01:17:33.4100076Z hint:
+2026-10-13T01:17:33.4100827Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-13T01:17:33.4102108Z Initialized empty Git repository in /home/runner/work/tinuous/tinuous/tinuous-inception/.git/
+2026-10-13T01:17:33.4105080Z [command]/usr/bin/git remote add origin https://github.com/con/tinuous-inception
+2026-10-13T01:17:33.4151402Z ##[endgroup]
+2026-10-13T01:17:33.4152056Z ##[group]Disabling automatic garbage collection
+2026-10-13T01:17:33.4162363Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-13T01:17:33.4199738Z ##[endgroup]
+2026-10-13T01:17:33.4200327Z ##[group]Setting up auth
+2026-10-13T01:17:33.4201089Z Removing SSH command configuration
+2026-10-13T01:17:33.4208017Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-13T01:17:33.4251599Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-13T01:17:33.4513573Z Removing HTTP extra header
+2026-10-13T01:17:33.4519754Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-13T01:17:33.4558748Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-13T01:17:33.4824417Z Removing includeIf entries pointing to credentials config files
+2026-10-13T01:17:33.4830475Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-13T01:17:33.4870817Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-13T01:17:33.5109143Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-1a2c043f-cd69-496f-987f-c5e7acda59dd.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-13T01:17:33.5154878Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/tinuous/tinuous/tinuous-inception/.git.path /home/runner/work/_temp/git-credentials-1a2c043f-cd69-496f-987f-c5e7acda59dd.config
+2026-10-13T01:17:33.5193997Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/tinuous/tinuous/tinuous-inception/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-1a2c043f-cd69-496f-987f-c5e7acda59dd.config
+2026-10-13T01:17:33.5233663Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/tinuous-inception/.git.path /github/runner_temp/git-credentials-1a2c043f-cd69-496f-987f-c5e7acda59dd.config
+2026-10-13T01:17:33.5273554Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/tinuous-inception/.git/worktrees/*.path /github/runner_temp/git-credentials-1a2c043f-cd69-496f-987f-c5e7acda59dd.config
+2026-10-13T01:17:33.5308684Z ##[endgroup]
+2026-10-13T01:17:33.5309075Z ##[group]Determining the default branch
+2026-10-13T01:17:33.5311447Z Retrieving the default branch name
+2026-10-13T01:17:33.8191669Z Default branch 'master'
+2026-10-13T01:17:33.8192405Z ##[endgroup]
+2026-10-13T01:17:33.8192818Z ##[group]Fetching the repository
+2026-10-13T01:17:33.8199412Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/master:refs/remotes/origin/master
+2026-10-13T01:17:36.1588443Z From https://github.com/con/tinuous-inception
+2026-10-13T01:17:36.1589169Z  * [new branch]        master     -> origin/master
+2026-10-13T01:17:36.1595668Z ##[endgroup]
+2026-10-13T01:17:36.1596388Z ##[group]Determining the checkout info
+2026-10-13T01:17:36.1597118Z ##[endgroup]
+2026-10-13T01:17:36.1602329Z [command]/usr/bin/git sparse-checkout disable
+2026-10-13T01:17:36.1657501Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-13T01:17:36.1696296Z ##[group]Checking out the ref
+2026-10-13T01:17:36.1701675Z [command]/usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+2026-10-13T01:17:37.2367962Z Updating files:  36% (11002/30539)
+2026-10-13T01:17:37.2673503Z Updating files:  37% (11300/30539)
+2026-10-13T01:17:37.2931385Z Updating files:  38% (11605/30539)
+2026-10-13T01:17:37.3246807Z Updating files:  39% (11911/30539)
+2026-10-13T01:17:37.3558496Z Updating files:  40% (12216/30539)
+2026-10-13T01:17:37.3782218Z Updating files:  41% (12521/30539)
+2026-10-13T01:17:37.4057360Z Updating files:  42% (12827/30539)
+2026-10-13T01:17:37.4282638Z Updating files:  43% (13132/30539)
+2026-10-13T01:17:37.4509895Z Updating files:  44% (13438/30539)
+2026-10-13T01:17:37.4727899Z Updating files:  45% (13743/30539)
+2026-10-13T01:17:37.4937678Z Updating files:  46% (14048/30539)
+2026-10-13T01:17:37.5143689Z Updating files:  47% (14354/30539)
+2026-10-13T01:17:37.5356240Z Updating files:  48% (14659/30539)
+2026-10-13T01:17:37.5567753Z Updating files:  49% (14965/30539)
+2026-10-13T01:17:37.5786682Z Updating files:  50% (15270/30539)
+2026-10-13T01:17:37.5982645Z Updating files:  51% (15575/30539)
+2026-10-13T01:17:37.6195395Z Updating files:  52% (15881/30539)
+2026-10-13T01:17:37.6400610Z Updating files:  53% (16186/30539)
+2026-10-13T01:17:37.6589657Z Updating files:  54% (16492/30539)
+2026-10-13T01:17:37.6767673Z Updating files:  55% (16797/30539)
+2026-10-13T01:17:37.6987202Z Updating files:  56% (17102/30539)
+2026-10-13T01:17:37.7202830Z Updating files:  57% (17408/30539)
+2026-10-13T01:17:37.7406048Z Updating files:  58% (17713/30539)
+2026-10-13T01:17:37.7598012Z Updating files:  59% (18019/30539)
+2026-10-13T01:17:37.7792512Z Updating files:  60% (18324/30539)
+2026-10-13T01:17:37.7992176Z Updating files:  61% (18629/30539)
+2026-10-13T01:17:37.8181072Z Updating files:  62% (18935/30539)
+2026-10-13T01:17:37.8391497Z Updating files:  63% (19240/30539)
+2026-10-13T01:17:37.8590180Z Updating files:  64% (19545/30539)
+2026-10-13T01:17:37.8791410Z Updating files:  65% (19851/30539)
+2026-10-13T01:17:37.8987638Z Updating files:  66% (20156/30539)
+2026-10-13T01:17:37.9169887Z Updating files:  67% (20462/30539)
+2026-10-13T01:17:37.9339609Z Updating files:  68% (20767/30539)
+2026-10-13T01:17:37.9507569Z Updating files:  69% (21072/30539)
+2026-10-13T01:17:37.9673260Z Updating files:  70% (21378/30539)
+2026-10-13T01:17:37.9880064Z Updating files:  71% (21683/30539)
+2026-10-13T01:17:38.0040152Z Updating files:  72% (21989/30539)
+2026-10-13T01:17:38.0207667Z Updating files:  73% (22294/30539)
+2026-10-13T01:17:38.0366708Z Updating files:  74% (22599/30539)
+2026-10-13T01:17:38.0526000Z Updating files:  75% (22905/30539)
+2026-10-13T01:17:38.0686242Z Updating files:  76% (23210/30539)
+2026-10-13T01:17:38.0856888Z Updating files:  77% (23516/30539)
+2026-10-13T01:17:38.1031852Z Updating files:  78% (23821/30539)
+2026-10-13T01:17:38.1193362Z Updating files:  79% (24126/30539)
+2026-10-13T01:17:38.1359332Z Updating files:  80% (24432/30539)
+2026-10-13T01:17:38.1513513Z Updating files:  81% (24737/30539)
+2026-10-13T01:17:38.1672574Z Updating files:  82% (25042/30539)
+2026-10-13T01:17:38.1828708Z Updating files:  83% (25348/30539)
+2026-10-13T01:17:38.1978328Z Updating files:  84% (25653/30539)
+2026-10-13T01:17:38.2096499Z Updating files:  85% (25959/30539)
+2026-10-13T01:17:38.2151191Z Updating files:  85% (26163/30539)
+2026-10-13T01:17:38.2324231Z Updating files:  86% (26264/30539)
+2026-10-13T01:17:38.2497337Z Updating files:  87% (26569/30539)
+2026-10-13T01:17:38.2661525Z Updating files:  88% (26875/30539)
+2026-10-13T01:17:38.2875190Z Updating files:  89% (27180/30539)
+2026-10-13T01:17:38.3070958Z Updating files:  90% (27486/30539)
+2026-10-13T01:17:38.3315209Z Updating files:  91% (27791/30539)
+2026-10-13T01:17:38.3513377Z Updating files:  92% (28096/30539)
+2026-10-13T01:17:38.4342390Z Updating files:  93% (28402/30539)
+2026-10-13T01:17:38.4541429Z Updating files:  94% (28707/30539)
+2026-10-13T01:17:38.4714033Z Updating files:  95% (29013/30539)
+2026-10-13T01:17:38.4889356Z Updating files:  96% (29318/30539)
+2026-10-13T01:17:38.5087068Z Updating files:  97% (29623/30539)
+2026-10-13T01:17:38.5272178Z Updating files:  98% (29929/30539)
+2026-10-13T01:17:38.5477376Z Updating files:  99% (30234/30539)
+2026-10-13T01:17:38.5477840Z Updating files: 100% (30539/30539)
+2026-10-13T01:17:38.5478312Z Updating files: 100% (30539/30539), done.
+2026-10-13T01:17:38.5932622Z Reset branch 'master'
+2026-10-13T01:17:38.5935696Z branch 'master' set up to track 'origin/master'.
+2026-10-13T01:17:38.6010772Z ##[endgroup]
+2026-10-13T01:17:38.6060841Z [command]/usr/bin/git log -1 --format=%H
+2026-10-13T01:17:38.6092483Z 6e8c85b33a044e085c116bb77378fb2d8f90fb08
+2026-10-13T01:17:38.6236425Z ##[group]Run coverage run --source tinuous --branch -m tinuous fetch
+2026-10-13T01:17:38.6236952Z [36;1mcoverage run --source tinuous --branch -m tinuous fetch[0m
+2026-10-13T01:17:38.6302239Z shell: /usr/bin/bash -e {0}
+2026-10-13T01:17:38.6302486Z env:
+2026-10-13T01:17:38.6302747Z   pythonLocation: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:38.6303192Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.10.22/x64/lib/pkgconfig
+2026-10-13T01:17:38.6303616Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:38.6303984Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:38.6304358Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.22/x64
+2026-10-13T01:17:38.6305010Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.10.22/x64/lib
+2026-10-13T01:17:38.6307685Z   GITHUB_TOKEN: ***
+2026-10-13T01:17:38.6307900Z   TRAVIS_TOKEN: 
+2026-10-13T01:17:38.6308092Z   APPVEYOR_TOKEN: 
+2026-10-13T01:17:38.6308320Z   CIRCLECI_CLI_TOKEN: 
+2026-10-13T01:17:38.6308533Z   PYTHONWARNINGS: error
+2026-10-13T01:17:38.6308747Z ##[endgroup]
+2026-10-13T01:17:39.4072286Z 2026-10-13T01:17:39+0000 [INFO    ] tinuous: tinuous 0.7.5.post3+gf6c75da
+2026-10-13T01:17:39.4121856Z Traceback (most recent call last):
+2026-10-13T01:17:39.4128509Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/tinuous/circleci.py", line 29, in get_auth_tokens
+2026-10-13T01:17:39.4129361Z     with (Path.home() / ".circleci" / "cli.yml").open() as fp:
+2026-10-13T01:17:39.4130032Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/pathlib.py", line 1119, in open
+2026-10-13T01:17:39.4744407Z     return self._accessor.open(self, mode, buffering, encoding, errors,
+2026-10-13T01:17:39.4745740Z FileNotFoundError: [Errno 2] No such file or directory: '/home/runner/.circleci/cli.yml'
+2026-10-13T01:17:39.4746237Z 
+2026-10-13T01:17:39.4746501Z During handling of the above exception, another exception occurred:
+2026-10-13T01:17:39.4746869Z 
+2026-10-13T01:17:39.4746995Z Traceback (most recent call last):
+2026-10-13T01:17:39.4747673Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/tinuous/__main__.py", line 375, in <module>
+2026-10-13T01:17:39.4748499Z     main()
+2026-10-13T01:17:39.4749053Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/click/core.py", line 1631, in __call__
+2026-10-13T01:17:39.4749661Z     return self.main(*args, **kwargs)
+2026-10-13T01:17:39.4750234Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/click/core.py", line 1552, in main
+2026-10-13T01:17:39.4751142Z     rv = self.invoke(ctx)
+2026-10-13T01:17:39.4751721Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/click/core.py", line 2032, in invoke
+2026-10-13T01:17:39.4753903Z     return _process_result(sub_ctx.command.invoke(sub_ctx))
+2026-10-13T01:17:39.4754844Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/click/core.py", line 1415, in invoke
+2026-10-13T01:17:39.4756246Z     return ctx.invoke(self.callback, **ctx.params)
+2026-10-13T01:17:39.4756907Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/click/core.py", line 910, in invoke
+2026-10-13T01:17:39.4758054Z     return callback(*args, **kwargs)
+2026-10-13T01:17:39.4758837Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/click/decorators.py", line 46, in new_func
+2026-10-13T01:17:39.4759816Z     return f(get_current_context().obj, *args, **kwargs)
+2026-10-13T01:17:39.4760664Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/tinuous/__main__.py", line 171, in fetch
+2026-10-13T01:17:39.4761542Z     tokens[name] = cicfg.get_auth_tokens()
+2026-10-13T01:17:39.4762213Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/tinuous/config.py", line 158, in get_auth_tokens
+2026-10-13T01:17:39.4762863Z     return CircleCI.get_auth_tokens()
+2026-10-13T01:17:39.4763732Z   File "/opt/hostedtoolcache/Python/3.10.22/x64/lib/python3.10/site-packages/tinuous/circleci.py", line 32, in get_auth_tokens
+2026-10-13T01:17:39.4764376Z     raise RuntimeError(
+2026-10-13T01:17:39.4765438Z RuntimeError: CircleCI token not set.  Set via CIRCLECI_CLI_TOKEN environment variable or log in with `circleci` client.  See <https://github.com/con/tinuous#circleci> for more information.
+2026-10-13T01:17:39.5222796Z ##[error]Process completed with exit code 1.
+2026-10-13T01:17:39.5362974Z Post job cleanup.
+2026-10-13T01:17:39.6198328Z [command]/usr/bin/git version
+2026-10-13T01:17:39.6239570Z git version 2.55.0
+2026-10-13T01:17:39.6279075Z Temporarily overriding HOME='/home/runner/work/_temp/edac4722-9ba7-4a37-b2a6-8b205c322ca0' before making global git config changes
+2026-10-13T01:17:39.6281166Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-13T01:17:39.6285094Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tinuous/tinuous/tinuous-inception
+2026-10-13T01:17:39.6318241Z Removing SSH command configuration
+2026-10-13T01:17:39.6325582Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-13T01:17:39.6363219Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-13T01:17:39.6657889Z Removing HTTP extra header
+2026-10-13T01:17:39.6665127Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-13T01:17:39.6705768Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-13T01:17:39.7000061Z Removing includeIf entries pointing to credentials config files
+2026-10-13T01:17:39.7008627Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-13T01:17:39.7076453Z includeif.gitdir:/home/runner/work/tinuous/tinuous/tinuous-inception/.git.path
+2026-10-13T01:17:39.7077727Z includeif.gitdir:/home/runner/work/tinuous/tinuous/tinuous-inception/.git/worktrees/*.path
+2026-10-13T01:17:39.7078906Z includeif.gitdir:/github/workspace/tinuous-inception/.git.path
+2026-10-13T01:17:39.7079961Z includeif.gitdir:/github/workspace/tinuous-inception/.git/worktrees/*.path
+2026-10-13T01:17:39.7084963Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tinuous/tinuous/tinuous-inception/.git.path
+2026-10-13T01:17:39.7113855Z /home/runner/work/_temp/git-credentials-1a2c043f-cd69-496f-987f-c5e7acda59dd.config
+2026-10-13T01:17:39.7126131Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tinuous/tinuous/tinuous-inception/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-1a2c043f\-cd69\-496f\-987f\-c5e7acda59dd\.config
+2026-10-13T01:17:39.7167217Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tinuous/tinuous/tinuous-inception/.git/worktrees/*.path
+2026-10-13T01:17:39.7210840Z /home/runner/work/_temp/git-credentials-1a2c043f-cd69-496f-987f-c5e7acda59dd.config
+2026-10-13T01:17:39.7212668Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tinuous/tinuous/tinuous-inception/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-1a2c043f\-cd69\-496f\-987f\-c5e7acda59dd\.config
+2026-10-13T01:17:39.7256003Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/tinuous-inception/.git.path
+2026-10-13T01:17:39.7285442Z /github/runner_temp/git-credentials-1a2c043f-cd69-496f-987f-c5e7acda59dd.config
+2026-10-13T01:17:39.7287348Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/tinuous-inception/.git.path \/github\/runner_temp\/git\-credentials\-1a2c043f\-cd69\-496f\-987f\-c5e7acda59dd\.config
+2026-10-13T01:17:39.7325994Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/tinuous-inception/.git/worktrees/*.path
+2026-10-13T01:17:39.7365366Z /github/runner_temp/git-credentials-1a2c043f-cd69-496f-987f-c5e7acda59dd.config
+2026-10-13T01:17:39.7426430Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/tinuous-inception/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-1a2c043f\-cd69\-496f\-987f\-c5e7acda59dd\.config
+2026-10-13T01:17:39.7446492Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-13T01:17:39.7683332Z Removing credentials config '/home/runner/work/_temp/git-credentials-1a2c043f-cd69-496f-987f-c5e7acda59dd.config'
+2026-10-13T01:17:39.7851533Z Post job cleanup.
+2026-10-13T01:17:39.8714415Z [command]/usr/bin/git version
+2026-10-13T01:17:39.8759023Z git version 2.55.0
+2026-10-13T01:17:39.8800593Z Temporarily overriding HOME='/home/runner/work/_temp/8b9809e6-bc39-4bd2-8329-260a9c7d5c83' before making global git config changes
+2026-10-13T01:17:39.8801633Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-13T01:17:39.8806956Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tinuous/tinuous
+2026-10-13T01:17:39.8839549Z Removing SSH command configuration
+2026-10-13T01:17:39.8846097Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-13T01:17:39.8881631Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-13T01:17:39.9132910Z Removing HTTP extra header
+2026-10-13T01:17:39.9138608Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-13T01:17:39.9175691Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-13T01:17:39.9456890Z Removing includeIf entries pointing to credentials config files
+2026-10-13T01:17:39.9467837Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-13T01:17:39.9494015Z includeif.gitdir:/home/runner/work/tinuous/tinuous/.git.path
+2026-10-13T01:17:39.9495787Z includeif.gitdir:/home/runner/work/tinuous/tinuous/.git/worktrees/*.path
+2026-10-13T01:17:39.9496772Z includeif.gitdir:/github/workspace/.git.path
+2026-10-13T01:17:39.9497575Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-13T01:17:39.9502757Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tinuous/tinuous/.git.path
+2026-10-13T01:17:39.9529997Z /home/runner/work/_temp/git-credentials-12f34c1f-0bbf-447b-9d88-6e90897bed0d.config
+2026-10-13T01:17:39.9541054Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tinuous/tinuous/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-12f34c1f\-0bbf\-447b\-9d88\-6e90897bed0d\.config
+2026-10-13T01:17:39.9581618Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tinuous/tinuous/.git/worktrees/*.path
+2026-10-13T01:17:39.9617868Z /home/runner/work/_temp/git-credentials-12f34c1f-0bbf-447b-9d88-6e90897bed0d.config
+2026-10-13T01:17:39.9626602Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tinuous/tinuous/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-12f34c1f\-0bbf\-447b\-9d88\-6e90897bed0d\.config
+2026-10-13T01:17:39.9665728Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+2026-10-13T01:17:39.9692880Z /github/runner_temp/git-credentials-12f34c1f-0bbf-447b-9d88-6e90897bed0d.config
+2026-10-13T01:17:39.9711226Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-12f34c1f\-0bbf\-447b\-9d88\-6e90897bed0d\.config
+2026-10-13T01:17:39.9750691Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-13T01:17:39.9779498Z /github/runner_temp/git-credentials-12f34c1f-0bbf-447b-9d88-6e90897bed0d.config
+2026-10-13T01:17:39.9796362Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-12f34c1f\-0bbf\-447b\-9d88\-6e90897bed0d\.config
+2026-10-13T01:17:39.9827797Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-13T01:17:40.0057042Z Removing credentials config '/home/runner/work/_temp/git-credentials-12f34c1f-0bbf-447b-9d88-6e90897bed0d.config'
+2026-10-13T01:17:40.0193838Z Cleaning up orphan processes

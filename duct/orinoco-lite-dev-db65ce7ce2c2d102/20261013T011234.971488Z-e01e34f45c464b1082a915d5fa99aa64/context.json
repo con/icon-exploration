@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "session_id": "01a132d0-5aba-7123-b330-a916eb438f15",
+  "task_id": null,
+  "project_id": "orinoco-lite-dev-db65ce7ce2c2d102",
+  "project_root": "/Users/johnlee/code/CON/orinoco/orinoco-lite-dev",
+  "working_directory": "/Users/johnlee/code/CON/orinoco/orinoco-lite-dev",
+  "started_at": "2026-10-13T01:12:34.971488+00:00",
+  "git_commit": "6c4bd055ca4311d951d96c35e573c65cbc315b9a",
+  "git_dirty": true,
+  "duct_executable": "/Users/johnlee/.local/bin/duct"
+}

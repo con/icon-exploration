@@ -1,0 +1,20 @@
+typing: install_deps> python -I -m pip install mypy pytest pytest-cov pytest-mock types-python-dateutil types-PyYAML types-requests
+.pkg: install_requires> python -I -m pip install 'setuptools>=46.4.0' versioningit
+.pkg: _optional_hooks> python /Users/johnlee/.cache/uv/archive-v0/WiujWLwHn_oP6W_A/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_sdist> python /Users/johnlee/.cache/uv/archive-v0/WiujWLwHn_oP6W_A/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_wheel> python /Users/johnlee/.cache/uv/archive-v0/WiujWLwHn_oP6W_A/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: prepare_metadata_for_build_wheel> python /Users/johnlee/.cache/uv/archive-v0/WiujWLwHn_oP6W_A/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: build_sdist> python /Users/johnlee/.cache/uv/archive-v0/WiujWLwHn_oP6W_A/lib/python3.9/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+typing: install_package_deps> python -I -m pip install 'PyYAML>=5.0' 'click-loglevel~=0.2' 'click>=7.0' 'ghtoken~=0.1' 'in_place~=1.0' 'pydantic~=2.0' 'python-dateutil~=2.7' 'python-dotenv<2.0,>=0.11' 'requests~=2.20'
+typing: install_package> python -I -m pip install --force-reinstall --no-deps /private/tmp/con-project-icon-proposals/checkouts/tinuous/.tox/.tmp/package/1/tinuous-0.7.5.post2+g95754c5.d20261013.tar.gz
+Processing ./.tox/.tmp/package/1/tinuous-0.7.5.post2+g95754c5.d20261013.tar.gz
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+INFO: pip is looking at multiple versions of tinuous to determine which version is compatible with other requirements. This could take a while.
+typing: exit 1 (1.75 seconds) /private/tmp/con-project-icon-proposals/checkouts/tinuous> python -I -m pip install --force-reinstall --no-deps /private/tmp/con-project-icon-proposals/checkouts/tinuous/.tox/.tmp/package/1/tinuous-0.7.5.post2+g95754c5.d20261013.tar.gz pid=94962
+  typing: FAIL code 1 (17.21 seconds)
+  evaluation failed :( (17.22 seconds)

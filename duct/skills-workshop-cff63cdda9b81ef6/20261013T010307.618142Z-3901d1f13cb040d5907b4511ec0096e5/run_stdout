@@ -1,0 +1,167 @@
+
+== memory ==
+ui-ux-pro-max: Searchable visual, interface and native accessibility guidance
+  matched: visual, design in history, summary
+  source: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+  partial [agent; unreviewed]: Applied native form and accessibility guidance; local search returned web-focused results. Verified narrow Mac layout; iPhone and full accessibility checks remain deferred.
+  partial [agent; unreviewed]: Applied SwiftUI accessibility guidance and native pre-delivery review; rejected marketing layout matches. Mac flow inspected; iPhone verification awaits Xcode.
+develop-orinoco-lite: Guide Orinoco Lite engineering and source-adapter design using live local pins, verified upstream evidence, static curation, provenance, mappings, and durable human decision memory.
+  matched: brand, design in history, summary
+  source: https://github.com/leej3/skills-workshop.git
+  source: https://github.com/ORINOCO-Lite/orinoco-lite-dev.git
+  success [agent; unreviewed]: Disposable rendered downstream validation confirmed native locked checks preserve valid locks across Pixi versions and the complete starter build still succeeds.
+  success [agent; unreviewed]: Paired template validation exercised the merged package pin through frozen installation and a full starter-site build before updating the PR.
+unix-cli-design: Design and review Unix CLI composition: pipes, streams, output formats, exit status, and interruption.
+  matched: design in history, name, sources, summary
+  source: https://github.com/leej3/skills-workshop.git
+design-ux: Task-based rendered usability audit with independent review
+  matched: design in aliases, name, sources
+  source: https://github.com/connerkward/ckw-design-skill
+  source: https://github.com/leej3/ckw-design-skill
+design-learning-ux: Project learning UX guidance for autonomy, depth, narrative feedback and editorial reporting
+  matched: design in history, name, sources
+  source: /Users/johnlee/code/CON/cognition-trainer/.apm/skills/design-learning-ux
+  success [agent; unreviewed]: Applied and updated guidance for one report entry, explained multi-selection and concrete examples; verified native reading depth and tab reset.
+  success [agent; unreviewed]: Guidance shaped depth, feedback, review provenance and a corrected report-return flow.
+lessig-presentations: Create and review rapid visual talks whose speech and slides form synchronized rhetoric
+  matched: visual in history, summary
+  source: https://github.com/leej3/research-object-with-ai.git
+  success [agent; unreviewed]: The combined skill kept the project in web-source mode, preserved content/layout alignment, and guided targeted browser verification; the project-specific sentinel and numbering conventions required refinement during use.
+  success [agent; unreviewed]: The skill provided concrete criteria for assessing rhetorical sequencing, synchronization, tempo variation, technical definitions, playfulness, recovery, and closure while keeping visual implementation concerns separate.
+web-design-guidelines: Web interface accessibility and interaction implementation checks
+  matched: design in name, sources
+  source: https://github.com/vercel-labs/agent-skills
+  source: https://github.com/leej3/agent-skills
+pdf: Read, create, inspect, render, and verify PDF files where visual layout matters, including fillable AcroForms. Use Poppler rendering plus Python tools such as reportlab, pdfplumber, and pypdf for generation and extraction.
+  matched: visual in summary
+  source: /Users/johnlee/.codex/plugins/cache/openai-primary-runtime/pdf/26.909.12148/skills/pdf
+  success [agent; unreviewed]: Rendering and visually inspecting every page complemented text extraction by confirming that the complete revised abstract fit without clipping or overflow.
+presentations: Create, edit, and review presentations with concise writing, explicit sources, and visual verification.
+  matched: visual in summary
+  source: ~/.codex/plugins/cache/openai-primary-runtime/presentations/26.909.12148/skills/presentations
+  success [agent; unreviewed]: The presentation guidance kept claims attributed, source links visible, and the six-slide narrative focused on a real demo. Its PowerPoint-specific generation instructions did not apply to the requested web format.
+organize-project-docs: Classify and organize repository documentation by audience, authority, and lifecycle.
+  matched: design in history
+  source: git@github.com:leej3/skills-workshop.git
+  source: https://github.com/ORINOCO-Lite/orinoco-lite-dev.git
+  success [agent; unreviewed]: Kept durable review guidance in the existing design principle instead of adding a parallel diff registry or temporary spec.
+  success [agent; unreviewed]: Concrete component names clarified the charter and active guidance without adding a glossary for an ambiguous aggregate.
+
+== local ==
+imagegen: Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, …
+  matched: logo, icon, svg, brand, visual, design in content, description
+  openai-skills: upstreams/openai-skills/skills/.system/imagegen (49f948faa9258a0c61caceaf225e179651397431)
+figma-implement-design: Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions "implement design", "generate code", "implement component", provides Figma URLs, or asks to build components matching Figma specs. For Figma c…
+  matched: icon, svg, visual, design in content, description, name
+  openai-skills: upstreams/openai-skills/skills/.curated/figma-implement-design (49f948faa9258a0c61caceaf225e179651397431)
+figma-create-design-system-rules: Generates custom design system rules for the user's codebase. Use when user says "create design system rules", "generate rules for my project", "set up design rules", "customize design system guidelines", or wants to establish project-specific conventions for Figma-to-code workflows. Requires Figma…
+  matched: icon, svg, visual, design in content, description, name
+  openai-skills: upstreams/openai-skills/skills/.curated/figma-create-design-system-rules (49f948faa9258a0c61caceaf225e179651397431)
+brand-guidelines: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
+  matched: brand, visual, design in content, description, name
+  anthropic-skills: upstreams/anthropic-skills/skills/brand-guidelines (33375500bcea98d610eb30ce10ac4e59b89c390d)
+hatch-pet: Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual references. Use when a user wants a lightweight-worker Codex pet workflow, a non-pixel custom pet style, a prospect …
+  matched: logo, brand, visual, design in content, description
+  openai-skills: upstreams/openai-skills/skills/.curated/hatch-pet (49f948faa9258a0c61caceaf225e179651397431)
+figma-generate-design: Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in…
+  matched: icon, brand, visual, design in content, description, name
+  openai-skills: upstreams/openai-skills/skills/.curated/figma-generate-design (49f948faa9258a0c61caceaf225e179651397431)
+pptx: Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an e…
+  matched: icon, svg, brand, visual, design in content
+  anthropic-skills: upstreams/anthropic-skills/skills/pptx (33375500bcea98d610eb30ce10ac4e59b89c390d)
+pptx: Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an e…
+  matched: icon, svg, brand, visual, design in content
+  scientific-agent-skills: upstreams/scientific-agent-skills/skills/pptx (49c6e97775eaa18ba791bebe23162a70ae601c18)
+figma: Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma MCP setup and troubleshooting.
+  matched: icon, svg, visual, design in content, description
+  openai-skills: upstreams/openai-skills/skills/.curated/figma (49f948faa9258a0c61caceaf225e179651397431)
+frontend-design: Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
+  matched: brand, visual, design in content, description, name
+  anthropic-skills: upstreams/anthropic-skills/skills/frontend-design (33375500bcea98d610eb30ce10ac4e59b89c390d)
+
+== installed ==
+imagegen: Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, …
+  matched: logo, icon, svg, brand, visual, design in content, description
+  codex-user: /Users/johnlee/.codex/skills/.system/imagegen (local/unpinned)
+pdf: Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.
+  matched: visual, design in content, description
+  codex-user: /Users/johnlee/.codex/skills/pdf (local/unpinned)
+screenshot: Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.
+  matched: visual, design in content
+  codex-user: /Users/johnlee/.codex/skills/screenshot (local/unpinned)
+security-threat-model: Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform App…
+  matched: design in description
+  codex-user: /Users/johnlee/.codex/skills/security-threat-model (local/unpinned)
+skill-creator: Create or update a Codex skill with appropriately scoped instructions and any needed supporting resources.
+  matched: logo in content
+  codex-user: /Users/johnlee/.codex/skills/.system/skill-creator (local/unpinned)
+skills-workshop: Coordinate systematic agent-skill discovery, native project skill creation, reusable dependency installation, cross-project recall, use tracking, evaluation, and upstream contribution. Use when asked to find or compare skills, create or manage a project's skills, install or audit reusable skills wi…
+  matched: design in content
+  codex-user: /Users/johnlee/.codex/skills/skills-workshop (local/unpinned)
+
+== asm ==
+design
+  Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini AI), corporate identity program (50 deliverables, CIP mockups), HTML presentations (Chart.js), banner design (22 styles, social/ads/web/print), icon design (15 styles, SVG, Gemini 3.1 Pro), soc…
+  source: github:nextlevelbuilder/ui-ux-pro-max-skill:.claude/skills/design
+high-end-visual-design
+  Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.
+  source: github:Leonxlnx/taste-skill:skills/soft-skill
+logo-designer
+  Generate professional SVG logos from project context, producing 7 brand variants (mark, full, wordmark, icon, favicon, white, black) plus a showcase HTML page. Skip for raster-only logos, product illustrations, or full brand-guideline docs.
+  source: github:luongnv89/skills:skills/logo-designer
+brand-guidelines
+  When the user wants to apply, document, or enforce brand guidelines for any product or company. Also use when the user mentions 'brand guidelines,' 'brand colors,' 'typography,' 'logo usage,' 'brand voice,' 'visual identity,' 'tone of voice,' 'brand standards,' 'style guide,' 'brand consistency,' o…
+  source: github:alirezarezvani/claude-skills:.codex/skills/brand-guidelines
+high-end-visual-design
+  Use when designing expensive agency-grade interfaces with premium fonts, spatial rhythm, soft depth, and fluid microinteractions.
+  source: github:sickn33/antigravity-awesome-skills:skills/high-end-visual-design
+brand-guidelines
+  Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
+  source: github:anthropics/skills:skills/brand-guidelines
+brand-name-checker
+  Check product and brand names for conflicts across trademarks, domains, social handles, and package registries. Returns a risk level and Proceed/Modify/Abandon recommendation. Skip for name brainstorming, logo design, or trademark filings.
+  source: github:luongnv89/skills:skills/brand-name-checker
+design-system
+  Captures the user's brand identity once via a 10-question onboarding wizard (primary/accent HEX + heading + body Google Fonts + design style editorial/technical/minimal/playful + default output directory + syntax theme + TOC behavior + optional logo/company), validates body-text and link contrast a…
+  source: github:alirezarezvani/claude-skills:.codex/skills/design-system
+app-icon-optimization
+  When the user wants to design, test, or improve their app icon to increase tap-through rate and conversions in App Store search and browse. Use when the user mentions "app icon", "icon design", "icon A/B test", "icon variants", "tap-through rate", "icon conversion", "icon refresh", or wants to know…
+  source: github:Eronred/aso-skills:skills/app-icon-optimization
+web-design-reviewer
+  This skill enables visual inspection of websites running locally or remotely to identify and fix design issues. Triggers on requests like "review website design", "check the UI", "fix the layout", "find design problems". Detects issues with responsive design, accessibility, visual consistency, and …
+  source: github:Galaxy-Dawn/claude-scholar:skills/web-design-reviewer
+
+== github ==
+No matches.
+
+== vercel ==
+thatjuan/agent-skills@logo-studio
+  source: https://skills.sh/thatjuan/agent-skills/logo-studio
+  signal: 59 installs
+atypica-ai/marketing-skills@logo-design
+  source: https://skills.sh/atypica-ai/marketing-skills/logo-design
+  signal: 28 installs
+atypica-ai/logo-design-skill@logo-design
+  source: https://skills.sh/atypica-ai/logo-design-skill/logo-design
+  signal: 11 installs
+skills.volces.com@opengfx-logo
+  source: https://skills.sh/skills.volces.com/opengfx-logo
+  signal: 4 installs
+skills.volces.com@opengfx-logo
+  source: https://skills.sh/skills.volces.com/opengfx
+  signal: 3 installs
+jgamaraalv/delivery-loop@create-svg
+  source: https://skills.sh/jgamaraalv/delivery-loop/create-svg
+  signal: 3 installs
+dotharness/dotcraft@svg-design
+  source: https://skills.sh/dotharness/dotcraft/svg-design
+  signal: 2 installs
+jim788e/logo-creation-skill@logo-creation
+  source: https://skills.sh/jim788e/logo-creation-skill/logo-creation
+  signal: 1 install
+hsinpu/autoverse-ai-agent-skills@logo-design
+  source: https://skills.sh/hsinpu/autoverse-ai-agent-skills/logo-design
+  signal: 1 install
+clawhub.ai@logo-svg-generator-skill
+  source: https://skills.sh/clawhub.ai/logo-svg-generator-skill
+  signal: 1 install

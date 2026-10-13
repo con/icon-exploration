@@ -1,0 +1,5 @@
+Downloading virtualenv (5.2MiB)
+ Downloaded virtualenv
+Installed 14 packages in 14ms
+[31mERROR: Package 'tinuous' requires a different Python: 3.9.18 not in '>=3.10'
+[39m

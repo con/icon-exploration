@@ -1,0 +1,29 @@
+<svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 290"><rect width="1024" height="290" fill="#ffffff" /><g transform="translate(20,10) scale(.84)"><ns0:title id="title">AnnexTube icon proposal</ns0:title><ns0:desc id="desc">A video play symbol archived in a linked storage tray.</ns0:desc>
+<ns0:rect width="256" height="256" rx="44" fill="#17324D" />
+<ns0:path d="M55 92h146v88H55z" fill="none" stroke="#F4F0E6" stroke-width="10" stroke-linejoin="round" />
+<ns0:path d="M55 116h146M75 92v24m106-24v24" fill="none" stroke="#36A89A" stroke-width="9" stroke-linecap="round" />
+<ns0:path d="m112 131 39 22-39 22z" fill="#E26D5A" stroke="#F4F0E6" stroke-width="6" stroke-linejoin="round" />
+<ns0:circle cx="74" cy="72" r="7" fill="#E9B44C" /><ns0:circle cx="182" cy="72" r="7" fill="#E9B44C" />
+</g><text x="128" y="267" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#17324D">annextube</text><g transform="translate(276,10) scale(.84)"><ns0:title id="title">fscacher icon proposal</ns0:title><ns0:desc id="desc">A file fingerprint held inside a persistent cache loop.</ns0:desc>
+<ns0:rect width="256" height="256" rx="44" fill="#17324D" />
+<ns0:path d="M79 50h66l38 38v92a13 13 0 0 1-13 13H79a13 13 0 0 1-13-13V63a13 13 0 0 1 13-13Z" fill="none" stroke="#F4F0E6" stroke-width="10" stroke-linejoin="round" />
+<ns0:path d="M145 51v38h37" fill="none" stroke="#36A89A" stroke-width="9" stroke-linejoin="round" />
+<ns0:path d="M95 112h34m-34 20h28" stroke="#F4F0E6" stroke-width="8" stroke-linecap="round" />
+<ns0:path d="M151 144a28 28 0 1 1-6-18" fill="none" stroke="#E26D5A" stroke-width="9" stroke-linecap="round" />
+<ns0:path d="m140 116 6 14 14-6" fill="none" stroke="#E26D5A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+<ns0:circle cx="104" cy="161" r="5" fill="#E9B44C" /><ns0:circle cx="120" cy="161" r="5" fill="#E9B44C" />
+</g><text x="384" y="267" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#17324D">fscacher</text><g transform="translate(532,10) scale(.84)"><ns0:title id="title">solidation icon proposal</ns0:title><ns0:desc id="desc">Issue and pull request activity converges into a concise report.</ns0:desc>
+<ns0:rect width="256" height="256" rx="44" fill="#17324D" />
+<ns0:path d="M72 62h78l34 34v100a12 12 0 0 1-12 12H72a12 12 0 0 1-12-12V74a12 12 0 0 1 12-12Z" fill="none" stroke="#F4F0E6" stroke-width="10" stroke-linejoin="round" />
+<ns0:path d="M150 63v34h33" fill="none" stroke="#36A89A" stroke-width="9" stroke-linejoin="round" />
+<ns0:path d="M91 119h60m-60 21h60m-60 21h38" stroke="#F4F0E6" stroke-width="8" stroke-linecap="round" />
+<ns0:circle cx="64" cy="89" r="13" fill="#E26D5A" /><ns0:circle cx="192" cy="130" r="13" fill="#E9B44C" />
+<ns0:path d="M77 89h16m86 41h-16" stroke="#36A89A" stroke-width="7" stroke-linecap="round" />
+</g><text x="640" y="267" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#17324D">solidation</text><g transform="translate(788,10) scale(.84)"><ns0:title id="title">tinuous icon proposal</ns0:title><ns0:desc id="desc">Build output is collected into a downloadable archive.</ns0:desc>
+<ns0:rect width="256" height="256" rx="44" fill="#17324D" />
+<ns0:path d="M62 61h132v134H62z" fill="none" stroke="#F4F0E6" stroke-width="10" stroke-linejoin="round" />
+<ns0:path d="M84 91h50m-50 21h38" stroke="#36A89A" stroke-width="8" stroke-linecap="round" />
+<ns0:path d="M145 88v58m-21-20 21 21 21-21" fill="none" stroke="#E26D5A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+<ns0:path d="M84 165h28m16 0h14m14 0h14" stroke="#F4F0E6" stroke-width="7" stroke-linecap="round" />
+<ns0:circle cx="177" cy="76" r="7" fill="#E9B44C" />
+</g><text x="896" y="267" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#17324D">tinuous</text></svg>

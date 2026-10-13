@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">fscacher icon proposal</title><desc id="desc">A file fingerprint held inside a persistent cache loop.</desc>
+<rect width="256" height="256" rx="44" fill="#17324D"/>
+<path d="M79 50h66l38 38v92a13 13 0 0 1-13 13H79a13 13 0 0 1-13-13V63a13 13 0 0 1 13-13Z" fill="none" stroke="#F4F0E6" stroke-width="10" stroke-linejoin="round"/>
+<path d="M145 51v38h37" fill="none" stroke="#36A89A" stroke-width="9" stroke-linejoin="round"/>
+<path d="M95 112h34m-34 20h28" stroke="#F4F0E6" stroke-width="8" stroke-linecap="round"/>
+<path d="M151 144a28 28 0 1 1-6-18" fill="none" stroke="#E26D5A" stroke-width="9" stroke-linecap="round"/>
+<path d="m140 116 6 14 14-6" fill="none" stroke="#E26D5A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="104" cy="161" r="5" fill="#E9B44C"/><circle cx="120" cy="161" r="5" fill="#E9B44C"/>
+</svg>

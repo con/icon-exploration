@@ -1,0 +1,10 @@
+.pkg: _optional_hooks> python /Users/johnlee/.cache/uv/archive-v0/wqbryI9aa5-h5eEu/lib/python3.10/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_sdist> python /Users/johnlee/.cache/uv/archive-v0/wqbryI9aa5-h5eEu/lib/python3.10/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_wheel> python /Users/johnlee/.cache/uv/archive-v0/wqbryI9aa5-h5eEu/lib/python3.10/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: prepare_metadata_for_build_wheel> python /Users/johnlee/.cache/uv/archive-v0/wqbryI9aa5-h5eEu/lib/python3.10/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: build_sdist> python /Users/johnlee/.cache/uv/archive-v0/wqbryI9aa5-h5eEu/lib/python3.10/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+typing: install_package> python -I -m pip install --force-reinstall --no-deps /private/tmp/con-project-icon-proposals/checkouts/tinuous/.tox/.tmp/package/3/tinuous-0.7.5.post1+g45fa939.d20261013.tar.gz
+typing: commands[0]> mypy src test
+Success: no issues found in 16 source files
+  typing: OK (3.10=setup[2.93]+cmd[0.16] seconds)
+  congratulations :) (3.11 seconds)

@@ -1,0 +1,13 @@
+trim trailing whitespace.................................................Passed
+fix end of files.........................................................Failed
+- hook id: end-of-file-fixer
+- exit code: 1
+
+Fixing assets/logo-concepts/b-memory-seed.svg
+Fixing assets/logo-concepts/c-recall.svg
+
+check yaml...........................................(no files to check)Skipped
+check for added large files..............................................Passed
+black................................................(no files to check)Skipped
+isort................................................(no files to check)Skipped
+flake8...............................................(no files to check)Skipped

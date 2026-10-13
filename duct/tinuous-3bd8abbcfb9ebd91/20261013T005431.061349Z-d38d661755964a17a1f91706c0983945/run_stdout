@@ -1,0 +1,28 @@
+[INFO] Initializing environment for https://github.com/pre-commit/pre-commit-hooks.
+[WARNING] repo `https://github.com/pre-commit/pre-commit-hooks` uses deprecated stage names (commit, push) which will be removed in a future version.  Hint: often `pre-commit autoupdate --repo https://github.com/pre-commit/pre-commit-hooks` will fix this.  if it does not -- consider reporting an issue to that repo.
+[INFO] Initializing environment for https://github.com/psf/black.
+[INFO] Locking pre-commit directory
+[INFO] Initializing environment for https://github.com/PyCQA/isort.
+[INFO] Initializing environment for https://github.com/PyCQA/flake8.
+[INFO] Locking pre-commit directory
+[INFO] Initializing environment for https://github.com/PyCQA/flake8:flake8-bugbear,flake8-builtins,flake8-unused-arguments.
+[INFO] Locking pre-commit directory
+[INFO] Initializing environment for https://github.com/codespell-project/codespell.
+[INFO] Locking pre-commit directory
+[INFO] Initializing environment for https://github.com/codespell-project/codespell:tomli.
+[INFO] Installing environment for https://github.com/psf/black.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+[INFO] Installing environment for https://github.com/codespell-project/codespell.
+[INFO] Once installed this environment will be reused.
+[INFO] This may take a few minutes...
+check for added large files..............................................Passed
+check json...........................................(no files to check)Skipped
+check toml...........................................(no files to check)Skipped
+check yaml...........................................(no files to check)Skipped
+fix end of files.........................................................Passed
+trim trailing whitespace.................................................Passed
+black................................................(no files to check)Skipped
+isort................................................(no files to check)Skipped
+flake8...............................................(no files to check)Skipped
+codespell................................................................Passed

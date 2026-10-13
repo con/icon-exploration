@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="con/tinuous growth record logo">
+  <title>con/tinuous — Growth record</title>
+  <desc>Tree rings turn the log into a durable growing record, with a shared stem.</desc>
+  <style>:root { --ink: #BA482C; }</style>
+  <path d="M128 34a94 94 0 1 0 94 94M128 73a55 55 0 1 0 55 55" fill="none" stroke="#BA482C" stroke-width="25" stroke-linecap="round"/><path d="M128 32v96h95M128 128l67-67" fill="none" stroke="#BA482C" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

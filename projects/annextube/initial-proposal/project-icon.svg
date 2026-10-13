@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">AnnexTube icon proposal</title><desc id="desc">A video play symbol archived in a linked storage tray.</desc>
+<rect width="256" height="256" rx="44" fill="#17324D"/>
+<path d="M55 92h146v88H55z" fill="none" stroke="#F4F0E6" stroke-width="10" stroke-linejoin="round"/>
+<path d="M55 116h146M75 92v24m106-24v24" fill="none" stroke="#36A89A" stroke-width="9" stroke-linecap="round"/>
+<path d="m112 131 39 22-39 22z" fill="#E26D5A" stroke="#F4F0E6" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="74" cy="72" r="7" fill="#E9B44C"/><circle cx="182" cy="72" r="7" fill="#E9B44C"/>
+</svg>

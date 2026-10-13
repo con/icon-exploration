@@ -1,0 +1,18 @@
+typing: recreate env because python changed version_info=[3, 9, 18, 'final', 0]->[3, 10, 16, 'final', 0] | executable='/Users/johnlee/mambaforge/bin/python3.9'->'/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/bin/python3.10'
+typing: remove tox env folder /private/tmp/con-project-icon-proposals/checkouts/tinuous/.tox/typing
+typing: install_deps> python -I -m pip install mypy pytest pytest-cov pytest-mock types-python-dateutil types-PyYAML types-requests
+.pkg: recreate env because python changed version_info=[3, 9, 18, 'final', 0]->[3, 10, 16, 'final', 0] | executable='/Users/johnlee/mambaforge/bin/python3.9'->'/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/bin/python3.10'
+.pkg: remove tox env folder /private/tmp/con-project-icon-proposals/checkouts/tinuous/.tox/.pkg
+.pkg: install_requires> python -I -m pip install 'setuptools>=46.4.0' versioningit
+.pkg: _optional_hooks> python /Users/johnlee/.cache/uv/archive-v0/wqbryI9aa5-h5eEu/lib/python3.10/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_sdist> python /Users/johnlee/.cache/uv/archive-v0/wqbryI9aa5-h5eEu/lib/python3.10/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: get_requires_for_build_wheel> python /Users/johnlee/.cache/uv/archive-v0/wqbryI9aa5-h5eEu/lib/python3.10/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: install_requires_for_build_wheel> python -I -m pip install wheel
+.pkg: prepare_metadata_for_build_wheel> python /Users/johnlee/.cache/uv/archive-v0/wqbryI9aa5-h5eEu/lib/python3.10/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+.pkg: build_sdist> python /Users/johnlee/.cache/uv/archive-v0/wqbryI9aa5-h5eEu/lib/python3.10/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+typing: install_package_deps> python -I -m pip install 'PyYAML>=5.0' 'click-loglevel~=0.2' 'click>=7.0' 'ghtoken~=0.1' 'in-place~=1.0' 'pydantic~=2.0' 'python-dateutil~=2.7' 'python-dotenv<2.0,>=0.11' 'requests~=2.20'
+typing: install_package> python -I -m pip install --force-reinstall --no-deps /private/tmp/con-project-icon-proposals/checkouts/tinuous/.tox/.tmp/package/2/tinuous-0.7.5.post1+g45fa939.d20261013.tar.gz
+typing: commands[0]> mypy src test
+Success: no issues found in 16 source files
+  typing: OK (25.86=setup[23.36]+cmd[2.51] seconds)
+  congratulations :) (25.88 seconds)

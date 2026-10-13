@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "session_id": "01a13238-ab2d-7c63-b199-e70cc61df1af",
+  "task_id": null,
+  "project_id": "tinuous-3bd8abbcfb9ebd91",
+  "project_root": "/private/tmp/con-project-icon-proposals/checkouts/tinuous",
+  "working_directory": "/private/tmp/con-project-icon-proposals/checkouts/tinuous",
+  "started_at": "2026-10-13T00:54:31.061349+00:00",
+  "git_commit": "08d7a144ddabf2055d84fb0b9168f76e26a673cc",
+  "git_dirty": true,
+  "duct_executable": "/Users/johnlee/.local/bin/duct"
+}

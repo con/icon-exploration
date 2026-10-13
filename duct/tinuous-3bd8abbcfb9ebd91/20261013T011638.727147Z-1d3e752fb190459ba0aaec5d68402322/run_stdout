@@ -1,0 +1,10 @@
+check for added large files..............................................Passed
+check json...........................................(no files to check)Skipped
+check toml...........................................(no files to check)Skipped
+check yaml...........................................(no files to check)Skipped
+fix end of files.........................................................Passed
+trim trailing whitespace.................................................Passed
+black................................................(no files to check)Skipped
+isort................................................(no files to check)Skipped
+flake8...............................................(no files to check)Skipped
+codespell................................................................Passed

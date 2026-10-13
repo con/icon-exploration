@@ -54,10 +54,10 @@ The small-size comparison favors the original broad curves. A diagonal split wea
 
 Selected **Conversation S**: two voices form one recognizable initial, with a transparent gap preserving separation in monochrome.
 
-- Updated [project icon](/tmp/con-project-icon-proposals/checkouts/solidation/assets/project-icon.svg), plus monochrome and reversed versions.
+- Updated [project icon](../projects/solidation/proposed-assets/project-icon.svg), plus monochrome and reversed versions.
 - Saved three alternatives in `assets/logo-concepts/`.
 - Inspected renders at 16, 64, and 512px.
-- [Final preview](/tmp/con-project-icon-proposals/solidation/revised/final-validation.png)
-- [Research and rationale](/tmp/con-project-icon-proposals/solidation/revised/rationale.md)
+- [Final preview](../projects/solidation/exploration/final-validation.png)
+- [Research and rationale](../projects/solidation/exploration/rationale.md)
 
 No commits, pushes, or PR edits performed.

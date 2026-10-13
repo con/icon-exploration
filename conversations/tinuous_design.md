@@ -39,8 +39,8 @@ Payload:
 
 Selected the **record ribbon**: one continuous strip coils into a lasting record. Peer critique led to cut terminals and a shorter upper end.
 
-- Updated [project icon](/tmp/con-project-icon-proposals/checkouts/tinuous/assets/project-icon.svg), monochrome/reversed variants, and alternatives.
-- [Final preview](/tmp/con-project-icon-proposals/tinuous/revised/final-validation.png)
-- [Research and rationale](/tmp/con-project-icon-proposals/tinuous/revised/rationale.md)
+- Updated [project icon](../projects/tinuous/proposed-assets/project-icon.svg), monochrome/reversed variants, and alternatives.
+- [Final preview](../projects/tinuous/exploration/final-validation.png)
+- [Research and rationale](../projects/tinuous/exploration/rationale.md)
 
 Validated six SVGs and inspected 16/64/512px renders. No commits, pushes, or PR edits.

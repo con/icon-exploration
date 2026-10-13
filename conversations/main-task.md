@@ -227,9 +227,9 @@ Sender: /root/annextube_design
 Payload:
 Recommended **C — Tape a**: custom lowercase `a` with a transparent play counter. Peer critique led to a taller stem and curved foot, strengthening letter recognition.
 
-- [Recommended SVG](/tmp/con-project-icon-proposals/checkouts/annextube/assets/project-icon.svg)
-- [Three-concept comparison](/tmp/con-project-icon-proposals/annextube/revised/contact.png)
-- [Research and rationale](/tmp/con-project-icon-proposals/annextube/revised/rationale.md)
+- [Recommended SVG](../projects/annextube/proposed-assets/project-icon.svg)
+- [Three-concept comparison](../projects/annextube/exploration/contact.png)
+- [Research and rationale](../projects/annextube/exploration/rationale.md)
 
 Added dark, monochrome and reversed variants plus two alternate concepts. Validated 16/64/512 px across light/dark/monochrome treatments; inspected actual 16 px rendering. No commit, push or PR changes.
 
@@ -242,12 +242,12 @@ Sender: /root/fscacher_design
 Payload:
 Selected and refined the **fingerprint “f”**: a distinctive monogram tied directly to file fingerprints and memoized functions.
 
-- Updated [project-icon.svg](/tmp/con-project-icon-proposals/checkouts/fscacher/assets/project-icon.svg).
+- Updated [project-icon.svg](../projects/fscacher/proposed-assets/project-icon.svg).
 - Added monochrome/reversed variants and two alternative concepts.
 - Peer-reviewed by solidation and annextube agents.
 - Rendered at 16/64/512 px; all five SVGs validated.
-- [Final specimen](/tmp/con-project-icon-proposals/fscacher/revised/final-specimen.png)
-- [Research, refinement rationale, and duct logs](/tmp/con-project-icon-proposals/fscacher/revised/rationale.md)
+- [Final specimen](../projects/fscacher/exploration/final-specimen.png)
+- [Research, refinement rationale, and duct logs](../projects/fscacher/exploration/rationale.md)
 
 No commits, pushes, or PR edits. Parent handles Workshop recording and publication.
 
@@ -285,11 +285,11 @@ Sender: /root/solidation_design
 Payload:
 Selected **Conversation S**: two voices form one recognizable initial, with a transparent gap preserving separation in monochrome.
 
-- Updated [project icon](/tmp/con-project-icon-proposals/checkouts/solidation/assets/project-icon.svg), plus monochrome and reversed versions.
+- Updated [project icon](../projects/solidation/proposed-assets/project-icon.svg), plus monochrome and reversed versions.
 - Saved three alternatives in `assets/logo-concepts/`.
 - Inspected renders at 16, 64, and 512px.
-- [Final preview](/tmp/con-project-icon-proposals/solidation/revised/final-validation.png)
-- [Research and rationale](/tmp/con-project-icon-proposals/solidation/revised/rationale.md)
+- [Final preview](../projects/solidation/exploration/final-validation.png)
+- [Research and rationale](../projects/solidation/exploration/rationale.md)
 
 No commits, pushes, or PR edits performed.
 
@@ -323,9 +323,9 @@ Sender: /root/tinuous_design
 Payload:
 Selected the **record ribbon**: one continuous strip coils into a lasting record. Peer critique led to cut terminals and a shorter upper end.
 
-- Updated [project icon](/tmp/con-project-icon-proposals/checkouts/tinuous/assets/project-icon.svg), monochrome/reversed variants, and alternatives.
-- [Final preview](/tmp/con-project-icon-proposals/tinuous/revised/final-validation.png)
-- [Research and rationale](/tmp/con-project-icon-proposals/tinuous/revised/rationale.md)
+- Updated [project icon](../projects/tinuous/proposed-assets/project-icon.svg), monochrome/reversed variants, and alternatives.
+- [Final preview](../projects/tinuous/exploration/final-validation.png)
+- [Research and rationale](../projects/tinuous/exploration/rationale.md)
 
 Validated six SVGs and inspected 16/64/512px renders. No commits, pushes, or PR edits.
 
@@ -337,9 +337,9 @@ All four draft PRs are updated with a recommended mark, two alternatives, and a 
 
 ## 2026-10-13T01:20:46.798Z — Assistant final_answer
 
-Updated all four draft PRs using **Astra at medium effort**, one agent per project. They used the locally copied [logo-design skill](/Users/johnlee/.codex/artifacts/con-project-icons/logo-design-SKILL.md), researched existing identities, and exchanged critiques.
+Updated all four draft PRs using **Astra at medium effort**, one agent per project. They used the locally copied [logo-design skill](../documents/logo-design-SKILL.md), researched existing identities, and exchanged critiques.
 
-![Recommended project marks](/Users/johnlee/.codex/artifacts/con-project-icons/recommended-marks.png)
+![Recommended project marks](../recommended-marks.png)
 
 Each PR includes the recommended mark, two alternatives, comparison previews, and monochrome variants:
 

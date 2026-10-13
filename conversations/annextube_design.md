@@ -39,8 +39,8 @@ Payload:
 
 Recommended **C — Tape a**: custom lowercase `a` with a transparent play counter. Peer critique led to a taller stem and curved foot, strengthening letter recognition.
 
-- [Recommended SVG](/tmp/con-project-icon-proposals/checkouts/annextube/assets/project-icon.svg)
-- [Three-concept comparison](/tmp/con-project-icon-proposals/annextube/revised/contact.png)
-- [Research and rationale](/tmp/con-project-icon-proposals/annextube/revised/rationale.md)
+- [Recommended SVG](../projects/annextube/proposed-assets/project-icon.svg)
+- [Three-concept comparison](../projects/annextube/exploration/contact.png)
+- [Research and rationale](../projects/annextube/exploration/rationale.md)
 
 Added dark, monochrome and reversed variants plus two alternate concepts. Validated 16/64/512 px across light/dark/monochrome treatments; inspected actual 16 px rendering. No commit, push or PR changes.

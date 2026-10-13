@@ -59,12 +59,12 @@ The fingerprint-shaped “f” is the strongest direction. It makes the project�
 
 Selected and refined the **fingerprint “f”**: a distinctive monogram tied directly to file fingerprints and memoized functions.
 
-- Updated [project-icon.svg](/tmp/con-project-icon-proposals/checkouts/fscacher/assets/project-icon.svg).
+- Updated [project-icon.svg](../projects/fscacher/proposed-assets/project-icon.svg).
 - Added monochrome/reversed variants and two alternative concepts.
 - Peer-reviewed by solidation and annextube agents.
 - Rendered at 16/64/512 px; all five SVGs validated.
-- [Final specimen](/tmp/con-project-icon-proposals/fscacher/revised/final-specimen.png)
-- [Research, refinement rationale, and duct logs](/tmp/con-project-icon-proposals/fscacher/revised/rationale.md)
+- [Final specimen](../projects/fscacher/exploration/final-specimen.png)
+- [Research, refinement rationale, and duct logs](../projects/fscacher/exploration/rationale.md)
 
 No commits, pushes, or PR edits. Parent handles Workshop recording and publication.
 
